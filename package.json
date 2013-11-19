@@ -1,0 +1,20 @@
+{
+  "name": "kansai-firefoxos-5th",
+  "version": "1.0.0",
+  "description": "Kansai Firefox OS勉強会 5th GIG用 SVG動作確認アプリ",
+  "main": "Gruntfile.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kadoppe/kansai-firefox-os-5th.git"
+  },
+  "author": "Kohei Kadowaki (kadoppe)",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/kadoppe/kansai-firefox-os-5th/issues"
+  },
+  "homepage": "https://github.com/kadoppe/kansai-firefox-os-5th",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-connect": "~0.5.0"
+  }
+}
