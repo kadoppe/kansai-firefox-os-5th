@@ -1,8 +1,8 @@
 {
     "version": "1",
-    "name": "Firefox OS Boilerplate App",
+    "name": "Kansai Firefox OS 5th - SVG Test",
     "launch_path": "index.html",
-    "description": "Boilerplate Firefox OS app with example use cases to get started",
+    "description": "Kansai Firefox OS勉強会 5th GIG用 SVG動作確認アプリ",
     "icons": {
         "16": "images/logo16.png",
         "32": "images/logo32.png",
@@ -11,8 +11,8 @@
         "128": "images/logo128.png"
     },
     "developer": {
-        "name": "Robert Nyman",
-        "url": "http://robertnyman.com"
+        "name": "Kohei Kadowaki (Kadoppe)",
+        "url": "http://kadoppe.com"
     },
     "installs_allowed_from": ["*"],
     "default_locale": "en",
