@@ -19,7 +19,7 @@
 
     // WebActivities
     var pickImage = document.querySelector("#pick-image");
-    if (pickImage) { 
+    if (pickImage) {
         pickImage.onclick = function () {
             var pick = new MozActivity({
                 name: "pick",
@@ -43,7 +43,7 @@
     }
 
     var pickAnything = document.querySelector("#pick-anything");
-    if (pickAnything) { 
+    if (pickAnything) {
         pickAnything.onclick = function () {
              var pickAny = new MozActivity({
                  name: "pick"
@@ -64,7 +64,7 @@
     }
 
     var record = document.querySelector("#record");
-    if (record) { 
+    if (record) {
         record.onclick = function () {
             var rec = new MozActivity({
                 name: "record" // Possibly capture in future versions
@@ -85,7 +85,7 @@
     }
 
     var dial = document.querySelector("#dial");
-    if (dial) { 
+    if (dial) {
         dial.onclick = function () {
             var call = new MozActivity({
                 name: "dial",
@@ -97,7 +97,7 @@
     }
 
     var sendSMS = document.querySelector("#send-sms");
-    if (sendSMS) { 
+    if (sendSMS) {
         sendSMS.onclick = function () {
             var sms = new MozActivity({
                 name: "new", // Possible compose-sms in future versions
@@ -110,7 +110,7 @@
     }
 
     var addContact = document.querySelector("#add-contact");
-    if (addContact) { 
+    if (addContact) {
         addContact.onclick = function () {
             var newContact = new MozActivity({
                 name: "new", // Possibly add-contact in future versions
@@ -131,7 +131,7 @@
     }
 
     var share = document.querySelector("#share");
-    if (share) { 
+    if (share) {
         share.onclick = function () {
             var sharing = new MozActivity({
                 name: "share",
@@ -155,7 +155,7 @@
                 blobCanvas.height = imgToShare.height;
 
                 // Get context and draw image
-                var blobCanvasContext = blobCanvas.getContext("2d");            
+                var blobCanvasContext = blobCanvas.getContext("2d");
                 blobCanvasContext.drawImage(imgToShare, 0, 0);
 
                 // Export to blob and share through a Web Activitiy
@@ -177,7 +177,7 @@
     }
 
     var viewURL = document.querySelector("#view-url");
-    if (viewURL) { 
+    if (viewURL) {
         viewURL.onclick = function () {
             var openURL = new MozActivity({
                 name: "view",
@@ -190,7 +190,7 @@
     }
 
     var composeEmail = document.querySelector("#compose-email");
-    if (composeEmail) { 
+    if (composeEmail) {
         composeEmail.onclick = function () {
             var createEmail = new MozActivity({
                 name: "new", // Possibly compose-mail in future versions
@@ -203,7 +203,7 @@
     }
 
     var saveBookmark = document.querySelector("#save-bookmark");
-    if (saveBookmark) { 
+    if (saveBookmark) {
         saveBookmark.onclick = function () {
             var savingBookmark = new MozActivity({
                 name: "save-bookmark",
@@ -222,7 +222,7 @@
     if (addNotification) {
         addNotification.onclick = function () {
             var notification = navigator.mozNotification.createNotification(
-                "See this", 
+                "See this",
                 "This is a notification"
             );
              notification.show();
@@ -235,7 +235,7 @@
         lockOrientation.onclick = function () {
             /*
                 Possible values:
-                    "landscape", 
+                    "landscape",
                     "portrait"
                     "landscape-primary"
                     "landscape-secondary"
@@ -376,7 +376,7 @@
                                 + "<strong>Gamma: </strong>" + event.gamma + "<br>"
                                 + "<strong>Device orientation: </strong>" + orientedTo;
 
-                deviceOrientationDisplay.innerHTML = orientation 
+                deviceOrientationDisplay.innerHTML = orientation
             };
         }
     }
@@ -417,7 +417,7 @@
                 if (!cursor.result)  {
                     deviceStoragePicturesDisplay.innerHTML = "No files";
                 }
-                
+
                 var file = cursor.result,
                     filePresentation; 
 
@@ -435,4 +435,4 @@
             };
         };
     }
-})(); 
+})();

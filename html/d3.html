@@ -1,0 +1,54 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="../css/base.css">
+    <link rel="stylesheet" type="text/css" href="../css/headers.css">
+    <link rel="stylesheet" type="text/css" href="../css/buttons.css">
+    <link rel="stylesheet" type="text/css" href="../css/toolbars.css">
+    <style>
+      line {
+        stroke: gray;
+        stroke-width: 1px;
+      }
+
+      .male {
+        fill: blue;
+      }
+      .female {
+        fill: red;
+      }
+    </style>
+    <title>SVG Test</title>
+</head>
+
+<body>
+
+    <section role="region">
+        <header>
+            <h1>
+                D3.js
+            </h1>
+        </header>
+    </section>
+
+    <div id="main">
+        <svg width="100%" height="100%">
+        </svg>
+        <button id="action">filter</button>
+    </div>
+
+    <footer>
+        <div role="toolbar">
+            <ul>
+                <li><button id="back" class="home">Home</button></li>
+                <li><button id="reload" class="update">Update</button></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="../lib/d3.v3.js"></script>
+    <script type="text/javascript" src="../js/base.js"></script>
+    <script type="text/javascript" src="../js/d3_sample.js"></script>
+
+</body>
+</html>
