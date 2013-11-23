@@ -13,7 +13,6 @@
   var button = document.querySelector('#action');
   button.onclick = function () {
     put();
-    console.log(this);
     this.innerHTML = ++count;
   }
 
