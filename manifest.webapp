@@ -1,7 +1,7 @@
 {
     "version": "1",
     "name": "Kansai Firefox OS 5th - SVG Test",
-    "launch_path": "/kansai-firefox-os-5th/index.html",
+    "launch_path": "index.html",
     "description": "Kansai Firefox OS勉強会 5th GIG用 SVG動作確認アプリ",
     "icons": {
         "16": "images/logo16.png",
