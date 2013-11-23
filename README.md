@@ -1,4 +1,4 @@
-kansai-firefox-os-5th
+SVG sample for Firefox OS
 =====================
 
 To install your firefox os device or simulator:
